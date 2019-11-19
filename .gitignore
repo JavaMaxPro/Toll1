@@ -1,6 +1,6 @@
-# Created by .ignore support plugin (hsz.mobi)
 **/*.iml
 **/.*
+gradle/
+gradlew
+gradlew.bat
 !/.gitignore
-/gradlew
-/gradlew.bat
