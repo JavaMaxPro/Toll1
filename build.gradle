@@ -28,11 +28,15 @@ project(':common'){
    }
 }
 project(':server-ui'){
+    apply plugin: 'java-library-distribution'
+    apply plugin: 'gradle-one-jar'
     dependencies {
         compile project(':common')
     }
 }
 project(':server-core') {
+    apply plugin: 'java-library-distribution'
+    apply plugin: 'gradle-one-jar'
     dependencies {
         compile project(':common')
     }
